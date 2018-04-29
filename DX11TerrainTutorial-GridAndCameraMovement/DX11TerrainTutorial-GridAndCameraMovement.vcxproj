@@ -18,10 +18,61 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\applicationclass.h" />
+    <ClInclude Include="source\cameraclass.h" />
+    <ClInclude Include="source\colorshaderclass.h" />
+    <ClInclude Include="source\d3dclass.h" />
+    <ClInclude Include="source\fontclass.h" />
+    <ClInclude Include="source\fontshaderclass.h" />
+    <ClInclude Include="source\fpsclass.h" />
+    <ClInclude Include="source\inputclass.h" />
+    <ClInclude Include="source\positionclass.h" />
+    <ClInclude Include="source\shadermanagerclass.h" />
+    <ClInclude Include="source\systemclass.h" />
+    <ClInclude Include="source\terrainclass.h" />
+    <ClInclude Include="source\textclass.h" />
+    <ClInclude Include="source\textureclass.h" />
+    <ClInclude Include="source\timerclass.h" />
+    <ClInclude Include="source\userinterfaceclass.h" />
+    <ClInclude Include="source\zoneclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\applicationclass.cpp" />
+    <ClCompile Include="source\cameraclass.cpp" />
+    <ClCompile Include="source\colorshaderclass.cpp" />
+    <ClCompile Include="source\d3dclass.cpp" />
+    <ClCompile Include="source\fontclass.cpp" />
+    <ClCompile Include="source\fontshaderclass.cpp" />
+    <ClCompile Include="source\fpsclass.cpp" />
+    <ClCompile Include="source\inputclass.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\positionclass.cpp" />
+    <ClCompile Include="source\shadermanagerclass.cpp" />
+    <ClCompile Include="source\systemclass.cpp" />
+    <ClCompile Include="source\terrainclass.cpp" />
+    <ClCompile Include="source\textclass.cpp" />
+    <ClCompile Include="source\textureclass.cpp" />
+    <ClCompile Include="source\timerclass.cpp" />
+    <ClCompile Include="source\userinterfaceclass.cpp" />
+    <ClCompile Include="source\zoneclass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\color.ps" />
+    <None Include="source\color.vs" />
+    <None Include="source\font.ps" />
+    <None Include="source\font.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\font\font01.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\font\font01.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{44F882BA-EBE3-4E25-9CE8-51602AF779C4}</ProjectGuid>
-    <RootNamespace>DX11TerrainTutorialGridAndCameraMovement</RootNamespace>
+    <ProjectGuid>{2a15d863-d195-40c6-a6ff-96c5e4a67ada}</ProjectGuid>
+    <RootNamespace>DX11TerrainTutorial_GridAndCameraMovement</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -69,7 +120,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -77,6 +131,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;d3dx11.lib;d3d10.lib;d3dx10.lib;dxgi.lib;Xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -114,8 +171,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
