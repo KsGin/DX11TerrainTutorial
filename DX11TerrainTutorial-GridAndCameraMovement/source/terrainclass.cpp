@@ -78,7 +78,7 @@ bool TerrainClass::InitializeBuffers(ID3D11Device* device)
 	terrainWidth = 256;
 
 	// Set the color of the terrain grid.
-	color = XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f);
+	color = XMFLOAT4(0.5f, 0.5f, 0.5f, 1.0f);
 	
 	// Calculate the number of vertices in the terrain.
 	m_vertexCount = (terrainWidth - 1) * (terrainHeight - 1) * 8;

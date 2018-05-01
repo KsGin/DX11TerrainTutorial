@@ -8,7 +8,7 @@
 //////////////
 // INCLUDES //
 //////////////
-#include <d3d11.h>
+#include <D3D11.h>
 #include <directxmath.h>
 using namespace DirectX;
 

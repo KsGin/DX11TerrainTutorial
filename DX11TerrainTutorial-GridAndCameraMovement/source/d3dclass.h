@@ -10,13 +10,12 @@
 /////////////
 #pragma comment(lib, "d3d11.lib")
 #pragma comment(lib, "dxgi.lib")
-#pragma comment(lib, "d3dcompiler.lib")
 
 
 //////////////
 // INCLUDES //
 //////////////
-#include <d3d11.h>
+#include <D3D11.h>
 #include <directxmath.h>
 using namespace DirectX;
 
