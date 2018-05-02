@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-BitmapHeightMaps", "DX11TerrainTutorial-BitmapHeightMaps\DX11TerrainTutorial-BitmapHeightMaps.vcxproj", "{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +28,14 @@ Global
 		{2A15D863-D195-40C6-A6FF-96C5E4A67ADA}.Release|x64.Build.0 = Release|x64
 		{2A15D863-D195-40C6-A6FF-96C5E4A67ADA}.Release|x86.ActiveCfg = Release|Win32
 		{2A15D863-D195-40C6-A6FF-96C5E4A67ADA}.Release|x86.Build.0 = Release|Win32
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Debug|x64.ActiveCfg = Debug|x64
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Debug|x64.Build.0 = Debug|x64
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Debug|x86.Build.0 = Debug|Win32
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Release|x64.ActiveCfg = Release|x64
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Release|x64.Build.0 = Release|x64
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Release|x86.ActiveCfg = Release|Win32
+		{E4D4782C-5F9A-40A6-ACBF-F5CE151B7847}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
