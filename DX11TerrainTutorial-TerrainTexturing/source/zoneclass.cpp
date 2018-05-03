@@ -241,7 +241,7 @@ bool ZoneClass::Render(D3DClass* Direct3D, ShaderManagerClass* ShaderManager , T
 		Direct3D->EnableWireframe();
 	}
 
-	// Render the terrain grid using the color shader.
+	// Render the terrain grid using the texture shader.
 	m_Terrain->Render(Direct3D->GetDeviceContext());
 	result = ShaderManager->RenderTextureShader(Direct3D->GetDeviceContext(), m_Terrain->GetIndexCount(), worldMatrix, viewMatrix, 
 											  projectionMatrix , TextureManager->GetTexture(0));

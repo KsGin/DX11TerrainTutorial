@@ -11,7 +11,7 @@
 #include <D3D11.h>
 #include <fstream>
 #include <directxmath.h>
-#include "../../DX11TerrainTutorial-BitmapHeightMaps/source/textureclass.h"
+#include "textureclass.h"
 using namespace DirectX;
 
 
