@@ -21,10 +21,10 @@ TerrainShaderClass::~TerrainShaderClass() {
 bool TerrainShaderClass::Initialize(ID3D11Device* device, HWND hwnd) {
 	bool result;
 
-	CHAR light_vs[] = "./source/light.vs";
-	CHAR light_ps[] = "./source/light.ps";
+	CHAR terrain_vs[] = "./source/terrain.vs";
+	CHAR terrain_ps[] = "./source/terrain.ps";
 	// Initialize the vertex and pixel shaders.
-	result = InitializeShader(device, hwnd, light_vs, light_ps);
+	result = InitializeShader(device, hwnd, terrain_vs, terrain_ps);
 	if (!result)
 	{
 		return false;

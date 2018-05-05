@@ -83,6 +83,12 @@ bool ShaderManagerClass::Initialize(ID3D11Device* device, HWND hwnd)
 		return false;
 	}
 
+	// Create the terrain shader object.
+	m_TerrainShader = new TerrainShaderClass;
+	if (!m_TerrainShader) {
+		return false;
+	}
+
 	// Initialize the terrain shader object.
 	result = m_TerrainShader->Initialize(device, hwnd);
 	if (!result)

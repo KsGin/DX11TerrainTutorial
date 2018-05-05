@@ -201,6 +201,9 @@
     <Image Include="data\font\font01.tga">
       <Filter>Resource Files\Data</Filter>
     </Image>
+    <Image Include="data\dirt01n.tga">
+      <Filter>Resource Files\Data</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\setup.txt">
@@ -208,6 +211,9 @@
     </Text>
     <Text Include="data\font\font01.txt">
       <Filter>Resource Files\Data</Filter>
+    </Text>
+    <Text Include="shader-error.txt">
+      <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
 </Project>

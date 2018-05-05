@@ -53,6 +53,9 @@ bool TerrainClass::Initialize(ID3D11Device* device , char* setupFileName)
 		return false;
 	}
 
+	// We can now release the height map since it is no longer needed in memory once the 3D terrain model has been built.
+	ShutdownHeightMap();
+
 	// Calculate the tangent and binormal for the terrain model.
 	CalculateTerrainVectors();
 

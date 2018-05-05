@@ -81,12 +81,14 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\dirt01d.tga" />
+    <Image Include="data\dirt01n.tga" />
     <Image Include="data\font\font01.tga" />
     <Image Include="data\heightmap.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\font\font01.txt" />
     <Text Include="data\setup.txt" />
+    <Text Include="shader-error.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

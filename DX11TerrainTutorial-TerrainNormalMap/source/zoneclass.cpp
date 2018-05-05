@@ -281,8 +281,7 @@ bool ZoneClass::Render(D3DClass* Direct3D, ShaderManagerClass* ShaderManager , T
 	// Render the terrain grid using the texture shader.
 	m_Terrain->Render(Direct3D->GetDeviceContext());
 	result = ShaderManager->RenderTerrainShader(Direct3D->GetDeviceContext(), m_Terrain->GetIndexCount(), worldMatrix, viewMatrix, 
-						    projectionMatrix, TextureManager->GetTexture(0), TextureManager->GetTexture(1),
-						    m_Light->GetDirection(), m_Light->GetDiffuseColor());
+						    projectionMatrix, TextureManager->GetTexture(0),  TextureManager->GetTexture(1), m_Light->GetDirection(), m_Light->GetDiffuseColor());
 	if(!result)
 	{
 		return false;

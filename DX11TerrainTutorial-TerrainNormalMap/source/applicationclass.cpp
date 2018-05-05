@@ -95,6 +95,13 @@ bool ApplicationClass::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidt
 		return false;
 	}
 
+	// Load texture 0
+	CHAR terrain_nor[] = "./data/dirt01n.tga";
+	result = m_TextureManager->LoadTexture(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), terrain_nor , 1);
+	if (!result) {
+		return false;
+	}
+
 	// Create the timer object.
 	m_Timer = new TimerClass;
 	if(!m_Timer)
