@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-Terrain
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-TerrainLight", "DX11TerrainTutorial-TerrainLight\DX11TerrainTutorial-TerrainLight.vcxproj", "{7AF20BB8-9B54-4D4C-A9D9-A623E2B5D4ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-TerrainNormalMap", "DX11TerrainTutorial-TerrainNormalMap\DX11TerrainTutorial-TerrainNormalMap.vcxproj", "{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +58,14 @@ Global
 		{7AF20BB8-9B54-4D4C-A9D9-A623E2B5D4ED}.Release|x64.Build.0 = Release|x64
 		{7AF20BB8-9B54-4D4C-A9D9-A623E2B5D4ED}.Release|x86.ActiveCfg = Release|Win32
 		{7AF20BB8-9B54-4D4C-A9D9-A623E2B5D4ED}.Release|x86.Build.0 = Release|Win32
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Debug|x64.ActiveCfg = Debug|x64
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Debug|x64.Build.0 = Debug|x64
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Debug|x86.Build.0 = Debug|Win32
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Release|x64.ActiveCfg = Release|x64
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Release|x64.Build.0 = Release|x64
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Release|x86.ActiveCfg = Release|Win32
+		{70D159B7-DDA5-4ABA-A1E4-B0165402E6A3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
