@@ -19,8 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="skydomeclass.h" />
-    <ClInclude Include="skydomeshaderclass.h" />
     <ClInclude Include="source\applicationclass.h" />
     <ClInclude Include="source\cameraclass.h" />
     <ClInclude Include="source\colorshaderclass.h" />
@@ -33,6 +31,7 @@
     <ClInclude Include="source\lightshaderclass.h" />
     <ClInclude Include="source\positionclass.h" />
     <ClInclude Include="source\shadermanagerclass.h" />
+    <ClInclude Include="source\skydomeclass.h" />
     <ClInclude Include="source\systemclass.h" />
     <ClInclude Include="source\terrainclass.h" />
     <ClInclude Include="source\terrainshaderclass.h" />
@@ -45,8 +44,6 @@
     <ClInclude Include="source\zoneclass.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="skydomeclass.cpp" />
-    <ClCompile Include="skydomeshaderclass.cpp" />
     <ClCompile Include="source\applicationclass.cpp" />
     <ClCompile Include="source\cameraclass.cpp" />
     <ClCompile Include="source\colorshaderclass.cpp" />
@@ -60,6 +57,8 @@
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\positionclass.cpp" />
     <ClCompile Include="source\shadermanagerclass.cpp" />
+    <ClCompile Include="source\skydomeclass.cpp" />
+    <ClCompile Include="source\skydomeshaderclass.cpp" />
     <ClCompile Include="source\systemclass.cpp" />
     <ClCompile Include="source\terrainclass.cpp" />
     <ClCompile Include="source\terrainshaderclass.cpp" />
@@ -72,8 +71,6 @@
     <ClCompile Include="source\zoneclass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="skydome.ps" />
-    <None Include="skydome.vs" />
     <None Include="source\color.ps" />
     <None Include="source\color.vs" />
     <None Include="source\font.ps" />

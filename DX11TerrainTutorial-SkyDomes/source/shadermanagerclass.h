@@ -14,7 +14,7 @@
 #include "textureshaderclass.h"
 #include "terrainshaderclass.h"
 #include "lightshaderclass.h"
-#include "../skydomeshaderclass.h"
+#include "skydomeshaderclass.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////

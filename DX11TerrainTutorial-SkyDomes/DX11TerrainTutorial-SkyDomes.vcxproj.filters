@@ -87,10 +87,7 @@
     <ClInclude Include="source\zoneclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="skydomeclass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="skydomeshaderclass.h">
+    <ClInclude Include="source\skydomeclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -164,10 +161,10 @@
     <ClCompile Include="source\zoneclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="skydomeclass.cpp">
+    <ClCompile Include="source\skydomeclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="skydomeshaderclass.cpp">
+    <ClCompile Include="source\skydomeshaderclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -200,12 +197,6 @@
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="source\texture.vs">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="skydome.vs">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="skydome.ps">
       <Filter>Resource Files\Shaders</Filter>
     </None>
   </ItemGroup>

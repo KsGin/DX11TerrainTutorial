@@ -18,7 +18,7 @@
 #include "terrainclass.h"
 #include "texturemanagerclass.h"
 #include "lightclass.h"
-#include "../skydomeclass.h"
+#include "skydomeclass.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
