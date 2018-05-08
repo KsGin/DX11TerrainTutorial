@@ -24,6 +24,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-SkyDome
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-RawHeightMaps", "DX11TerrainTutorial-RawHeightMaps\DX11TerrainTutorial-RawHeightMaps.vcxproj", "{4EA1D699-34ED-41AD-B6A2-C795E1EAD985}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-TerrainCells", "DX11TerrainTutorial-TerrainCells\DX11TerrainTutorial-TerrainCells.vcxproj", "{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -96,6 +98,14 @@ Global
 		{4EA1D699-34ED-41AD-B6A2-C795E1EAD985}.Release|x64.Build.0 = Release|x64
 		{4EA1D699-34ED-41AD-B6A2-C795E1EAD985}.Release|x86.ActiveCfg = Release|Win32
 		{4EA1D699-34ED-41AD-B6A2-C795E1EAD985}.Release|x86.Build.0 = Release|Win32
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Debug|x64.ActiveCfg = Debug|x64
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Debug|x64.Build.0 = Debug|x64
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Debug|x86.Build.0 = Debug|Win32
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Release|x64.ActiveCfg = Release|x64
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Release|x64.Build.0 = Release|x64
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Release|x86.ActiveCfg = Release|Win32
+		{4190CCDE-DD44-4AC4-9F29-1660B3EE41CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
