@@ -32,6 +32,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-HeightB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-MiniMaps", "DX11TerrainTutorial-MiniMaps\DX11TerrainTutorial-MiniMaps.vcxproj", "{5C6550C3-4E67-4922-8F67-FE322E33A363}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-ProceduralTerrainTexturing", "DX11TerrainTutorial-ProceduralTerrainTexturing\DX11TerrainTutorial-ProceduralTerrainTexturing.vcxproj", "{D361781B-3C7E-4AA9-A85B-6C851EF2134C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -136,6 +138,14 @@ Global
 		{5C6550C3-4E67-4922-8F67-FE322E33A363}.Release|x64.Build.0 = Release|x64
 		{5C6550C3-4E67-4922-8F67-FE322E33A363}.Release|x86.ActiveCfg = Release|Win32
 		{5C6550C3-4E67-4922-8F67-FE322E33A363}.Release|x86.Build.0 = Release|Win32
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Debug|x64.ActiveCfg = Debug|x64
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Debug|x64.Build.0 = Debug|x64
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Debug|x86.Build.0 = Debug|Win32
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Release|x64.ActiveCfg = Release|x64
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Release|x64.Build.0 = Release|x64
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Release|x86.ActiveCfg = Release|Win32
+		{D361781B-3C7E-4AA9-A85B-6C851EF2134C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
