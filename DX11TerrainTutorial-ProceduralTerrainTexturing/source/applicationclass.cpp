@@ -88,22 +88,22 @@ bool ApplicationClass::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidt
 	}
 
 	// Load texture 0
-	CHAR rock01d[] = "./data/rock01d.tga";
+	CHAR rock01d[] = "./data/dirt01d.tga";
 	result = m_TextureManager->LoadTexture(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), rock01d , 0);
 	if (!result) {
 		return false;
 	}
 
-	// Load texture 0
-	CHAR rock01n[] = "./data/rock01n.tga";
+	// Load texture 1
+	CHAR rock01n[] = "./data/dirt01n.tga";
 	result = m_TextureManager->LoadTexture(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), rock01n , 1);
 	if (!result) {
 		return false;
 	}
 
-	// Load texture 0
-	CHAR snow01d[] = "./data/snow01d.tga";
-	result = m_TextureManager->LoadTexture(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), snow01d , 2);
+	// Load texture 2
+	CHAR snow01n[] = "./data/snow01n.tga";
+	result = m_TextureManager->LoadTexture(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), snow01n , 2);
 	if (!result) {
 		return false;
 	}

@@ -96,12 +96,13 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\colormap.bmp" />
-    <Image Include="data\dirt01d.tga" />
-    <Image Include="data\dirt01n.tga" />
     <Image Include="data\font\font01.tga" />
     <Image Include="data\heightmap.bmp" />
     <Image Include="data\minimap.tga" />
     <Image Include="data\point.tga" />
+    <Image Include="data\rock01d.tga" />
+    <Image Include="data\rock01n.tga" />
+    <Image Include="data\snow01n.tga" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\font\font01.txt" />

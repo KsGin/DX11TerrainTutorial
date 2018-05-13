@@ -240,12 +240,6 @@
     <Image Include="data\colormap.bmp">
       <Filter>Resource Files\Data</Filter>
     </Image>
-    <Image Include="data\dirt01d.tga">
-      <Filter>Resource Files\Data</Filter>
-    </Image>
-    <Image Include="data\dirt01n.tga">
-      <Filter>Resource Files\Data</Filter>
-    </Image>
     <Image Include="data\heightmap.bmp">
       <Filter>Resource Files\Data</Filter>
     </Image>
@@ -256,6 +250,15 @@
       <Filter>Resource Files\Data</Filter>
     </Image>
     <Image Include="data\font\font01.tga">
+      <Filter>Resource Files\Data</Filter>
+    </Image>
+    <Image Include="data\rock01d.tga">
+      <Filter>Resource Files\Data</Filter>
+    </Image>
+    <Image Include="data\rock01n.tga">
+      <Filter>Resource Files\Data</Filter>
+    </Image>
+    <Image Include="data\snow01n.tga">
       <Filter>Resource Files\Data</Filter>
     </Image>
   </ItemGroup>
