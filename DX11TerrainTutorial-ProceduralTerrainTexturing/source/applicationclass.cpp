@@ -30,21 +30,6 @@ bool ApplicationClass::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidt
 {
 	bool result;
 
-	// Create the Direct3D object.
-	m_Direct3D = new D3DClass;
-	if(!m_Direct3D)
-	{
-		return false;
-	}
-
-	// Initialize the Direct3D object.
-	result = m_Direct3D->Initialize(screenWidth, screenHeight, VSYNC_ENABLED, hwnd, FULL_SCREEN, SCREEN_DEPTH, SCREEN_NEAR);
-	if(!result)
-	{
-		MessageBox(hwnd, "Could not initialize Direct3D.", "Error", MB_OK);
-		return false;
-	}
-
 	// Create the input object.
 	m_Input = new InputClass;
 	if (!m_Input)
@@ -57,6 +42,21 @@ bool ApplicationClass::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidt
 	if(!result)
 	{
 		MessageBox(hwnd, "Could not initialize the input object.", "Error", MB_OK);
+		return false;
+	}
+
+	// Create the Direct3D object.
+	m_Direct3D = new D3DClass;
+	if(!m_Direct3D)
+	{
+		return false;
+	}
+
+	// Initialize the Direct3D object.
+	result = m_Direct3D->Initialize(screenWidth, screenHeight, VSYNC_ENABLED, hwnd, FULL_SCREEN, SCREEN_DEPTH, SCREEN_NEAR);
+	if(!result)
+	{
+		MessageBox(hwnd, "Could not initialize Direct3D.", "Error", MB_OK);
 		return false;
 	}
 
