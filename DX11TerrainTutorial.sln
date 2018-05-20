@@ -38,6 +38,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-Distanc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-BitmapClouds", "DX11TerrainTutorial-BitmapClouds\DX11TerrainTutorial-BitmapClouds.vcxproj", "{1A6FD4BB-2F7B-437B-BA29-5BDA266BC9E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX11TerrainTutorial-PerturbedClouds", "DX11TerrainTutorial-PerturbedClouds\DX11TerrainTutorial-PerturbedClouds.vcxproj", "{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -166,6 +168,14 @@ Global
 		{1A6FD4BB-2F7B-437B-BA29-5BDA266BC9E7}.Release|x64.Build.0 = Release|x64
 		{1A6FD4BB-2F7B-437B-BA29-5BDA266BC9E7}.Release|x86.ActiveCfg = Release|Win32
 		{1A6FD4BB-2F7B-437B-BA29-5BDA266BC9E7}.Release|x86.Build.0 = Release|Win32
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Debug|x64.ActiveCfg = Debug|x64
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Debug|x64.Build.0 = Debug|x64
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Debug|x86.Build.0 = Debug|Win32
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Release|x64.ActiveCfg = Release|x64
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Release|x64.Build.0 = Release|x64
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Release|x86.ActiveCfg = Release|Win32
+		{4AAAF229-0D9D-4333-BCF5-379BC42BC17F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
